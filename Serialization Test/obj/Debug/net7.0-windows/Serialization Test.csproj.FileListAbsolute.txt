@@ -1,0 +1,17 @@
+V:\Portfolio\Serialization Test\bin\Debug\net7.0-windows\Serialization Test.exe
+V:\Portfolio\Serialization Test\bin\Debug\net7.0-windows\Serialization Test.deps.json
+V:\Portfolio\Serialization Test\bin\Debug\net7.0-windows\Serialization Test.runtimeconfig.json
+V:\Portfolio\Serialization Test\bin\Debug\net7.0-windows\Serialization Test.dll
+V:\Portfolio\Serialization Test\bin\Debug\net7.0-windows\Serialization Test.pdb
+V:\Portfolio\Serialization Test\obj\Debug\net7.0-windows\Serialization Test.csproj.AssemblyReference.cache
+V:\Portfolio\Serialization Test\obj\Debug\net7.0-windows\Serialization_Test.Form1.resources
+V:\Portfolio\Serialization Test\obj\Debug\net7.0-windows\Serialization Test.csproj.GenerateResource.cache
+V:\Portfolio\Serialization Test\obj\Debug\net7.0-windows\Serialization Test.GeneratedMSBuildEditorConfig.editorconfig
+V:\Portfolio\Serialization Test\obj\Debug\net7.0-windows\Serialization Test.AssemblyInfoInputs.cache
+V:\Portfolio\Serialization Test\obj\Debug\net7.0-windows\Serialization Test.AssemblyInfo.cs
+V:\Portfolio\Serialization Test\obj\Debug\net7.0-windows\Serialization Test.csproj.CoreCompileInputs.cache
+V:\Portfolio\Serialization Test\obj\Debug\net7.0-windows\Serialization Test.dll
+V:\Portfolio\Serialization Test\obj\Debug\net7.0-windows\refint\Serialization Test.dll
+V:\Portfolio\Serialization Test\obj\Debug\net7.0-windows\Serialization Test.pdb
+V:\Portfolio\Serialization Test\obj\Debug\net7.0-windows\Serialization Test.genruntimeconfig.cache
+V:\Portfolio\Serialization Test\obj\Debug\net7.0-windows\ref\Serialization Test.dll
