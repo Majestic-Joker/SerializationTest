@@ -2,7 +2,7 @@ using System.Text.Json;
 
 namespace Serialization_Test
 {
-    public partial class Form1:Form
+    public partial class Form1 : Form
     {
         public Form1()
         {
@@ -11,13 +11,16 @@ namespace Serialization_Test
 
             ItemHolder? itemHolder = LoadItemHolder();
 
-            if( itemHolder != null ) {
+            if (itemHolder != null)
+            {
                 label1.Text = itemHolder.Items[2].Description;
             }
         }
 
-        public void CreateItemHolder() {
-            var itemHolder = new ItemHolder{
+        public void CreateItemHolder()
+        {
+            var itemHolder = new ItemHolder
+            {
                 Name = "First Item Holder",
                 Description = "An item holder is a list of items with extra info. Hey look we changed the description",
                 Date = DateTime.Now,
@@ -43,7 +46,7 @@ namespace Serialization_Test
             };
 
             var options = new JsonSerializerOptions { WriteIndented = true };
-            
+
             string json = JsonSerializer.Serialize(itemHolder, options);
 
             string assignmentName = "ItemHolderTest1"; //whatever the user enters
@@ -57,14 +60,16 @@ namespace Serialization_Test
             File.WriteAllText(temp, json);
         }
 
-        public ItemHolder? LoadItemHolder(){
+        public ItemHolder? LoadItemHolder()
+        {
             ItemHolder? itemHolder = null;
 
             //Open file dialog to choose file
             OpenFileDialog dialog = new OpenFileDialog();
 
-            if(dialog.ShowDialog() == DialogResult.OK){
-                string filepath = dialog.FileName;    
+            if (dialog.ShowDialog() == DialogResult.OK)
+            {
+                string filepath = dialog.FileName;
 
                 var fileStream = dialog.OpenFile();
                 var reader = new StreamReader(fileStream);
@@ -74,6 +79,18 @@ namespace Serialization_Test
             }
 
             return itemHolder;
+        }
+
+        private void UpdateListbox(ItemHolder? holder = null)
+        {
+            if(holder != null) {
+            lb_ListItems.Items.Clear();
+            
+            foreach(var item in holder.Items)
+                lb_ListItems.Items.Add(item);
+
+            lb_ListItems.;
+            }
         }
     }
 }
